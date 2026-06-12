@@ -22,17 +22,5 @@
     "verified": "11"
   },
   "download": "https://github.com/StickMick/input-expressions/archive/refs/tags/beta.zip",
-  "esmodules": ["main.js"],
-  "relationships": {
-    "requires": [
-      {
-        "id": "_mathjs",
-        "type": "module",
-        "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/mathjs-lib/master/module.json",
-        "compatibility": {
-          "verified": "1.2.0"
-        }
-      }
-    ]
-  }
+  "esmodules": ["main.js"]
 }
