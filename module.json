@@ -21,6 +21,7 @@
     "minimum": "10",
     "verified": "11"
   },
+  "download": "https://github.com/StickMick/input-expressions/archive/refs/tags/beta.zip",
   "esmodules": ["main.js"],
   "relationships": {
     "requires": [
