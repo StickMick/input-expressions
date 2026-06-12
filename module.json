@@ -1,37 +1,37 @@
 {
-	"id": "input-expressions",
-	"title": "Input Expressions",
-	"description": "Allows for mathematical expressions to be entered into numeric inputs.",
-	"authors": [
-		{
-			"name": "zeel",
-			"email": "zeel02@gmail.com",
-			"url": "https://github.com/zeel01",
-			"discord": "zeel#4200"
-		},
-		{
-			"name": "StickMick",
-			"email": "stick.mick@gmail.com",
-			"url": "https://github.com/StickMick",
-			"discord": "stick_mick"
-		}
-	],
-	"version": "2.1.1",
-	"compatibility": {
-      "minimum": "10",
-      "verified": "11"
+  "id": "input-expressions",
+  "title": "Input Expressions",
+  "description": "Allows for mathematical expressions to be entered into numeric inputs.",
+  "authors": [
+    {
+      "name": "zeel",
+      "email": "zeel02@gmail.com",
+      "url": "https://github.com/zeel01",
+      "discord": "zeel#4200"
     },
-	"esmodules": [
-		"main.js"
-	],
-	"relationships": {
-	  "requires": [{
-		    "id": "_mathjs",
-		    "type": "module",
-		    "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/mathjs-lib/master/module.json",
-		    "compatibility": {
-		      "verified": "1.2.0"
-		    }
-		  }]
-		},
+    {
+      "name": "StickMick",
+      "email": "stick.mick@gmail.com",
+      "url": "https://github.com/StickMick",
+      "discord": "stick_mick"
+    }
+  ],
+  "version": "2.1.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "esmodules": ["main.js"],
+  "relationships": {
+    "requires": [
+      {
+        "id": "_mathjs",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/mathjs-lib/master/module.json",
+        "compatibility": {
+          "verified": "1.2.0"
+        }
+      }
+    ]
+  }
 }
